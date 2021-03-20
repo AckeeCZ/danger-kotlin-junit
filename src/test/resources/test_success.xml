@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cz.flashsport.saved.screens.articledetail.similararticles.SimilarArticlesControllerTest" tests="1"
+           skipped="0" failures="0" errors="0" timestamp="2020-07-08T16:37:49" hostname="MacBook-Pro-6.local"
+           time="0.194">
+  <properties/>
+  <testcase name="should show article info with similar articles"
+            classname="cz.flashsport.saved.screens.articledetail.similararticles.SimilarArticlesControllerTest"
+            time="0.194"/>
+  <system-out><![CDATA[[Robolectric] cz.flashsport.saved.screens.articledetail.similararticles.SimilarArticlesControllerTest.should show article info with similar articles: sdk=16; resources=LEGACY
+[Robolectric] NOTICE: legacy resources mode is deprecated; see http://robolectric.org/migrating/#migrating-to-40
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
