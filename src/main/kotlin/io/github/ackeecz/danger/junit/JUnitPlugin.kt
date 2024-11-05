@@ -96,8 +96,8 @@ internal data class TestCase(
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 internal data class Failure(
-    @field:JacksonXmlProperty val message: String = "",
-    @field:JacksonXmlProperty val type: String = "",
+    @field:JacksonXmlProperty(isAttribute = true) val message: String = "",
+    @field:JacksonXmlProperty(isAttribute = true) val type: String = "",
     @field:JacksonXmlText val body: String = ""
 )
 

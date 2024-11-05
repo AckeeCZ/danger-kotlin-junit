@@ -1,9 +1,9 @@
 plugins {
     id 'java'
-    id 'org.jetbrains.kotlin.jvm' version '1.4.30'
-    id "com.github.johnrengelman.shadow" version "6.0.0"
+    id 'org.jetbrains.kotlin.jvm' version '2.0.21'
+    id "com.gradleup.shadow" version "8.3.0"
     id "io.codearte.nexus-staging" version "0.30.0"
-    id "org.jetbrains.dokka" version "1.4.30"
+    id "org.jetbrains.dokka" version "2.0.0-Beta"
 }
 
 repositories {
@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.30"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.0.21"
     implementation "systems.danger:danger-kotlin-sdk:1.2"
     implementation "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.12.2"
 
@@ -20,10 +20,10 @@ dependencies {
 }
 
 compileKotlin {
-    kotlinOptions.jvmTarget = "1.8"
+    kotlinOptions.jvmTarget = "21"
 }
 compileTestKotlin {
-    kotlinOptions.jvmTarget = "1.8"
+    kotlinOptions.jvmTarget = "21"
 }
 
 // publishing
